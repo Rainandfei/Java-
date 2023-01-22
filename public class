@@ -1,0 +1,105 @@
+package day0102;
+
+ 
+
+public class Test1 {
+
+       public static void main(String[] args){
+
+             
+
+              //=====1、整型测试开始
+
+              byte a=-128;
+
+              byte b=127;
+
+             
+
+              short c=Short.MIN_VALUE;
+
+              short d=Short.MAX_VALUE;
+
+             
+
+              int e=Integer.MIN_VALUE;
+
+              int f=Integer.MAX_VALUE;
+
+             
+
+              long g=Long.MIN_VALUE;
+
+              long h=Long.MAX_VALUE;
+
+             
+
+              System.out.println(a);
+
+              System.out.println(b);
+
+              System.out.println(c);
+
+              System.out.println(d);
+
+              System.out.println(e);
+
+              System.out.println(f);
+
+              System.out.println(g);
+
+              System.out.println(h);
+
+              //=====整型测试结束
+
+             
+
+              //=====浮点测试开始
+
+              float i=Float.MIN_VALUE;
+
+              float j=Float.MAX_VALUE;
+
+             
+
+              double k=Double.MIN_VALUE;
+
+              double l=Double.MAX_VALUE;
+
+              System.out.println(i);
+
+              System.out.println(j);
+
+              System.out.println(k);
+
+              System.out.println(l);
+
+              //=====浮点测试结束
+
+             
+
+              //=====字符测试开始
+
+char a='a';
+
+              char b=97;
+
+              char c='b';
+
+              char d=98;
+
+              System.out.println(a);
+
+              System.out.println(b);
+
+              System.out.println(c);
+
+              System.out.println(d);
+
+              //=====字符测试结束
+
+ 
+
+       }
+
+}
